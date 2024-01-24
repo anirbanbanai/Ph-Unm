@@ -26,11 +26,7 @@ type TSidebarItems ={
     {
         name:"user management",
         children: [
-            {
-                name:"Dashboard",
-                path:"dashboard",
-                element:<AdminDashboard/>
-            },
+           
             {
                 name:"create-admin",
                 path:"create-admin",
@@ -44,6 +40,11 @@ type TSidebarItems ={
             {
                 name:"create-student",
                 path:"create-student",
+                element:<CreateStudent/>
+            },
+            {
+                name:"create-member",
+                path:"create-member",
                 element:<CreateStudent/>
             },
         ]
