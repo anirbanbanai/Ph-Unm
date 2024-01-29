@@ -9,7 +9,7 @@ const userRole = {
   FACULTY: "faculty",
   STUDENT: "student",
 };
-const SideBar = () => {
+const SideBar = () => { 
   const role = "admin";
   let sideBarItem;
 
